@@ -1,0 +1,12 @@
+.navigation {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav {
+    font-size:2rem;
+    color: black;
+    text-decoration: none;
+}
