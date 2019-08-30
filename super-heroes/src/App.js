@@ -3,12 +3,15 @@ import React from 'react';
 
 import Navigation from './components/navigation';
 import Legends from './components/legends';
+import Heroes from './components/heroes';
+import Name from './components/name';
+import Footer from './components/footer';
 
 import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className = 'body'>
     <div className = 'top'>
       <header>
       <p className = 'header'>LEGENDS & SUPER HEROES</p>
@@ -27,6 +30,9 @@ function App() {
       </header>
       </div>
       <Legends />
+      <Name />
+      <Heroes />
+      <Footer />
     </div>
   );
 }

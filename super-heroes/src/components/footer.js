@@ -1,15 +1,15 @@
 import React from 'react';
-import HeroCard from './heroCard';
-import '../css/heroes.css';
+import '../css/footer.css';
 
-function Heroes() {
+
+function Footer() {
     return (
-        <div className = 'heroes'>
-            <div>
-            <h2 className = 'sub-headings'>HEROES</h2>
+        <div className = 'footer'>
+            {/* <div>
+            <h2 className = 'sub-headings'>LEGENDS</h2>
             </div>
             <div>
-            <p className = 'hero-info'>
+            <p className = 'legend-info'>
             Lorem ipsum dolor sit amet, ius vero fastidii at, 
       ea quo harum timeam lucilius. Sed alii sensibus prodesset eu. Qui paulo 
       semper periculis at, nominavi antiopam delicatissimi vel ut. Facilis 
@@ -22,10 +22,10 @@ function Heroes() {
             </p>
             </div>
             <div>
-                <HeroCard />
-            </div>
+                
+            </div> */}
         </div>
     )
 }
 
-export default Heroes;
+export default Footer;

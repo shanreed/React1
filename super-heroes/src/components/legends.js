@@ -1,4 +1,5 @@
 import React from 'react';
+import LegendCard from './legendCard';
 import '../css/legends.css';
 
 function Legends() {
@@ -19,6 +20,9 @@ function Legends() {
         Ut vim quas etiam consequat, vel te esse appareat. Pri quis soluta impetus
          ne, eu usu debet munere conclusionemque.
             </p>
+            </div>
+            <div>
+                <LegendCard />
             </div>
         </div>
     )

@@ -53,6 +53,11 @@ html {
   font-size:62.5%;
 }
 
+.body {
+  /* margin: 0 auto;
+width: 90%; */
+}
+
 .top {
   /* background-color: purple; */
  
@@ -60,7 +65,7 @@ html {
         background-image: url("./images/supers.jpg");
         background-size: cover;
         background-attachment: fixed;
-        display: flex;
+        
 }
 
 header {
