@@ -6,7 +6,8 @@ import '../css/heroCard.css';
 
 function HeroCard() {
     return (
-        <div className = 'card-container'>
+        <>
+        <div className = 'hero-card-container'>
         
         <div className = 'hero-card'>
             <h3 className = 'hero-name'>HERCULES</h3>
@@ -56,8 +57,12 @@ function HeroCard() {
             <h5 className = 'hero-creation'> Created: 1970</h5>
             <p className = 'hero-description'>He was a hero for being great</p>
         </div>
-            <Link className = 'button'>SEE MORE HEROS</Link>
         </div>
+        <div className = 'hero-button'>
+            <Link className = 'hero-button'>SEE MORE HEROS</Link>
+            </div>
+        
+        </>
     )
 }
 
