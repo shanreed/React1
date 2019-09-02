@@ -1,8 +1,8 @@
 import React from 'react';
 import LegendCard from './legendCard';
-import '../css/legends.css';
+import './css/legends.css';
 
-function Legends() {
+function Legends(props) {
     return (
         <div className = 'legends'>
             <div>

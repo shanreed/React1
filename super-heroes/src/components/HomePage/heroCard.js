@@ -1,7 +1,7 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import {Route, Link} from 'react-router-dom'
 
-import '../css/heroCard.css';
+import './css/heroCard.css';
 
 
 function HeroCard() {
@@ -58,8 +58,8 @@ function HeroCard() {
             <p className = 'hero-description'>He was a hero for being great</p>
         </div>
         </div>
-        <div className = 'hero-button'>
-            <Link className = 'hero-button'>SEE MORE HEROS</Link>
+        <div className = 'button-div'>
+        <a className="hero-button" href="#" target="_blank" >SEE MORE HEROES</a>
             </div>
         
         </>

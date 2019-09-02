@@ -1,16 +1,17 @@
 import React from 'react';
-import HeroCard from './heroCard';
-import '../css/heroes.css';
 
-function Heroes() {
+
+
+
+
+
+
+function Homeheader() {
     return (
-        <div className = 'heroes'>
-            <div>
-            <h2 className = 'sub-headings'>HEROES</h2>
-            </div>
-            <div>
-            <p className = 'hero-info'>
-            Lorem ipsum dolor sit amet, ius vero fastidii at, 
+        <div >
+          <div>
+      <p className = 'header'>LEGENDS & SUPER HEROES</p>
+      <p className = 'header'>Lorem ipsum dolor sit amet, ius vero fastidii at, 
       ea quo harum timeam lucilius. Sed alii sensibus prodesset eu. Qui paulo 
       semper periculis at, nominavi antiopam delicatissimi vel ut. Facilis 
       accumsan consectetuer ne vim, et mei tritani ponderum delicata. Vel ut 
@@ -19,13 +20,20 @@ function Heroes() {
         admodum convenire per. Mea ad esse similique, usu sumo consectetuer ei. 
         Ut vim quas etiam consequat, vel te esse appareat. Pri quis soluta impetus
          ne, eu usu debet munere conclusionemque.
-            </p>
-            </div>
-            <div>
-                <HeroCard />
-            </div>
-        </div>
+      </p>
+      </div>
+      
+      </div>
+     
+
     )
 }
 
-export default Heroes;
+export default Homeheader;
+
+
+
+
+
+
+

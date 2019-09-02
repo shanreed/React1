@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 
-import '../css/legendCard.css';
+import './css/legendCard.css';
 
 
 function LegendCard() {
@@ -61,8 +61,8 @@ function LegendCard() {
         {/* <div className = 'legend-button'>
             <Link className = 'legend-link'>SEE MORE LEGENDS</Link>
             </div> */}
-              <div className="button">
-                  <a className="example_e" href="#" target="_blank" >SEE MORE LEGENDS</a>
+              <div className="button-div">
+                  <a className="hero-button" href="#" target="_blank" >SEE MORE LEGENDS</a>
                 </div>
 
         </>

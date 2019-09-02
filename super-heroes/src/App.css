@@ -61,7 +61,7 @@ width: 90%; */
 .top {
   /* background-color: purple; */
  
-        height: 60vh;
+        /* height: 60vh; */
         background-image: url("./images/supers.jpg");
         background-size: cover;
         background-attachment: fixed;
